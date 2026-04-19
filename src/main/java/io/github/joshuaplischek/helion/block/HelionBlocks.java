@@ -21,4 +21,13 @@ public class HelionBlocks {
                     .sound(SoundType.STONE) //Das ist für den sound. Also bei dem Laufen / Abbauen usw.
 
     );
+
+    public static final DeferredBlock<Block> DEEPSLATE_HELIONIUM_ORE = BLOCKS.registerSimpleBlock(
+            "deepslate_helionium_ore",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.DEEPSLATE)
+                    .requiresCorrectToolForDrops()
+                    .strength(4.5F, 4.5F)
+                    .sound(SoundType.DEEPSLATE)
+    );
 }
