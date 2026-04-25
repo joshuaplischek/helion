@@ -1,6 +1,7 @@
 package io.github.joshuaplischek.helion;
 
 import io.github.joshuaplischek.helion.block.HelionBlocks;
+import io.github.joshuaplischek.helion.item.HelionItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -74,6 +75,7 @@ public class HelionMod {
         HelionBlocks.BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
+        HelionItems.ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
 

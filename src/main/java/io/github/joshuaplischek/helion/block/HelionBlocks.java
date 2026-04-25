@@ -1,12 +1,17 @@
 package io.github.joshuaplischek.helion.block;
 
 import io.github.joshuaplischek.helion.HelionMod;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import static net.minecraft.world.item.Items.*;
 
 public class HelionBlocks {
 
@@ -30,4 +35,6 @@ public class HelionBlocks {
                     .strength(4.5F, 4.5F)
                     .sound(SoundType.DEEPSLATE)
     );
+
+
 }

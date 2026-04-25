@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "helion:block/deepslate_helionium_ore"
+  }
+}
