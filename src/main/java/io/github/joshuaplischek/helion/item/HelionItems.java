@@ -19,7 +19,7 @@ public class HelionItems {
             "helionium_ore", HelionBlocks.HELIONIUM_ORE
     );
 
-    public static final DeferredItem<BlockItem> DEEPSLATE_HELIONIUM_ORE = ITEMS.registerSimpleBlockItem(
+    public static final DeferredItem<BlockItem> DEEPSLATE_HELIONIUM_ORE_ITEM = ITEMS.registerSimpleBlockItem(
             "deepslate_helionium_ore", HelionBlocks.DEEPSLATE_HELIONIUM_ORE
     );
 

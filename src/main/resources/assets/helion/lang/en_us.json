@@ -12,6 +12,7 @@
   "examplemod.configuration.magicNumber": "Magic Number",
 
 
+  "itemGroup.helionmod": "Helion",
   "block.helion.helionium_ore": "Helionium Ore",
   "block.helion.deepslate_helionium_ore": "Deepslate Helionium Ore",
   "item.helion.raw_helionium": "Raw Helionium"
