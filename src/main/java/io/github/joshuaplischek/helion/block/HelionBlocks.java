@@ -17,6 +17,8 @@ public class HelionBlocks {
 
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(HelionMod.MODID);
 
+
+    //Helionium Ore
     public static final DeferredBlock<Block> HELIONIUM_ORE = BLOCKS.registerSimpleBlock(
             "helionium_ore",
             BlockBehaviour.Properties.of()
@@ -36,5 +38,15 @@ public class HelionBlocks {
                     .sound(SoundType.DEEPSLATE)
     );
 
+    // Lead Ore
+
+    public static final DeferredBlock<Block> LEAD_ORE = BLOCKS.registerSimpleBlock(
+            "lead_ore",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.STONE)
+                    .requiresCorrectToolForDrops()
+                    .strength(3.0F, 3.0F)
+                    .sound(SoundType.STONE)
+    );
 
 }

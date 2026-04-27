@@ -15,5 +15,9 @@
   "itemGroup.helionmod": "Helion",
   "block.helion.helionium_ore": "Helionium Ore",
   "block.helion.deepslate_helionium_ore": "Deepslate Helionium Ore",
+  "block.helion.lead_ore" : "Lead Ore",
+
+
   "item.helion.raw_helionium": "Raw Helionium"
+
 }

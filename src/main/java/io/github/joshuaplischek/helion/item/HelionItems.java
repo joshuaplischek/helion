@@ -23,6 +23,10 @@ public class HelionItems {
             "deepslate_helionium_ore", HelionBlocks.DEEPSLATE_HELIONIUM_ORE
     );
 
+    public static final DeferredItem<BlockItem> LEAD_ORE_ITEM = ITEMS.registerSimpleBlockItem(
+            "lead_ore", HelionBlocks.LEAD_ORE
+    );
+
     // ── Eigenständige Items ─────────────────────────────────
 
     public static final DeferredItem<Item> RAW_HELIONIUM = ITEMS.registerSimpleItem(
