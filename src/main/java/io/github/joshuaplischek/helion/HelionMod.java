@@ -62,7 +62,19 @@ public class HelionMod {
             .icon(() -> HelionItems.RAW_HELIONIUM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(HelionBlocks.HELIONIUM_ORE.get());
-                output.accept(HelionBlocks.HELIONIUM_BLOCK.get());// Add the example item to the tab. For your own tabs, this method is preferred over the event
+                output.accept(HelionBlocks.HELIONIUM_BLOCK.get());
+                output.accept(HelionBlocks.DEEPSLATE_HELIONIUM_ORE.get());
+                output.accept(HelionBlocks.LEAD_ORE.get());
+                output.accept(HelionBlocks.LEAD_BLOCK.get());
+                output.accept(HelionBlocks.TITANIUM_ORE.get());
+                output.accept(HelionBlocks.DEEPSLATE_TITANIUM_ORE.get());
+                output.accept(HelionBlocks.TITANIUM_BLOCK.get());
+                output.accept(HelionItems.RAW_HELIONIUM.get());
+                output.accept(HelionItems.RAW_LEAD.get());
+                output.accept(HelionItems.RAW_TITANIUM.get());
+                output.accept(HelionItems.HELIONIUM_INGOT.get());
+                output.accept(HelionItems.LEAD_INGOT);
+                output.accept(HelionItems.TITANIUM_INGOT.get());// Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
