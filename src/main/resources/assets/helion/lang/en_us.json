@@ -16,8 +16,11 @@
   "block.helion.helionium_ore": "Helionium Ore",
   "block.helion.deepslate_helionium_ore": "Deepslate Helionium Ore",
   "block.helion.lead_ore" : "Lead Ore",
+  "block.helion.titanium_ore": "Titanium Ore",
+  "block.helion.deepslate_titanium_ore": "Deepslate_Titanium Ore",
 
 
   "item.helion.raw_helionium": "Raw Helionium",
-  "item.helion.raw_lead": "Raw Lead"
+  "item.helion.raw_lead": "Raw Lead",
+  "item.helion.raw_titanium": "Raw Titanium"
 }

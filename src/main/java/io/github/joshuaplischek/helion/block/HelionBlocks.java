@@ -49,4 +49,23 @@ public class HelionBlocks {
                     .sound(SoundType.STONE)
     );
 
+    // Titanium Ore
+    public static final DeferredBlock<Block> TITANIUM_ORE = BLOCKS.registerSimpleBlock(
+            "titanium_ore",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.STONE)
+                    .requiresCorrectToolForDrops()
+                    .strength(4.0F, 4.0F)
+                    .sound(SoundType.STONE)
+    );
+
+    public static final DeferredBlock<Block> DEEPSLATE_TITANIUM_ORE = BLOCKS.registerSimpleBlock(
+            "deepslate_titanium_ore",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.STONE)
+                    .requiresCorrectToolForDrops()
+                    .strength(4.5F, 4.5F)
+                    .sound(SoundType.DEEPSLATE)
+    );
+
 }

@@ -1,5 +1,6 @@
 package io.github.joshuaplischek.helion.item;
 
+import com.jcraft.jorbis.Block;
 import io.github.joshuaplischek.helion.HelionMod;
 import io.github.joshuaplischek.helion.block.HelionBlocks;
 import net.minecraft.world.item.BlockItem;
@@ -27,6 +28,14 @@ public class HelionItems {
             "lead_ore", HelionBlocks.LEAD_ORE
     );
 
+    public static final DeferredItem<BlockItem> TITANIUM_ORE_ITEM = ITEMS.registerSimpleBlockItem(
+            "titanium_ore", HelionBlocks.TITANIUM_ORE
+    );
+
+    public static final DeferredItem<BlockItem> DEEPSLATE_TITANIUM_ORE_ITEM = ITEMS.registerSimpleBlockItem(
+            "deepslate_titanium_ore", HelionBlocks.DEEPSLATE_TITANIUM_ORE
+    );
+
     // ── Eigenständige Items ─────────────────────────────────
 
     public static final DeferredItem<Item> RAW_HELIONIUM = ITEMS.registerSimpleItem(
@@ -36,6 +45,11 @@ public class HelionItems {
 
     public static final DeferredItem<Item> RAW_LEAD = ITEMS.registerSimpleItem(
             "raw_lead",
+            new Item.Properties()
+    );
+
+    public static final DeferredItem<Item> RAW_TITANIUM = ITEMS.registerSimpleItem(
+            "raw_titanium",
             new Item.Properties()
     );
 

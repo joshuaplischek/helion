@@ -3,6 +3,8 @@
   "values": [
     "helion:helionium_ore",
     "helion:deepslate_helionium_ore",
-    "helion:lead_ore"
+    "helion:lead_ore",
+    "helion:titanium_ore",
+    "helion:deepslate_titanium_ore"
   ]
 }

@@ -110,11 +110,14 @@ public class HelionMod {
             event.accept(HelionItems.HELIONIUM_ORE_ITEM);
             event.accept(HelionItems.DEEPSLATE_HELIONIUM_ORE_ITEM);
             event.accept(HelionItems.LEAD_ORE_ITEM);
+            event.accept(HelionItems.TITANIUM_ORE_ITEM);
+            event.accept(HelionItems.DEEPSLATE_TITANIUM_ORE_ITEM);
 
         };
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(HelionItems.RAW_HELIONIUM);
             event.accept(HelionItems.RAW_LEAD);
+            event.accept(HelionItems.RAW_TITANIUM);
         };
     }
 
