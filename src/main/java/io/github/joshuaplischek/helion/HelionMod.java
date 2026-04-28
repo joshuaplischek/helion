@@ -61,7 +61,8 @@ public class HelionMod {
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> HelionItems.RAW_HELIONIUM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(HelionBlocks.HELIONIUM_ORE.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
+                output.accept(HelionBlocks.HELIONIUM_ORE.get());
+                output.accept(HelionBlocks.HELIONIUM_BLOCK.get());// Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
@@ -118,6 +119,7 @@ public class HelionMod {
             event.accept(HelionItems.RAW_HELIONIUM);
             event.accept(HelionItems.RAW_LEAD);
             event.accept(HelionItems.RAW_TITANIUM);
+            event.accept(HelionItems.TITANIUM_INGOT);
         };
     }
 

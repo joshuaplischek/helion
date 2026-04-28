@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "helion:titanium_nugget",
+    "helion:titanium_nugget",
+    "helion:titanium_nugget",
+    "helion:titanium_nugget",
+    "helion:titanium_nugget",
+    "helion:titanium_nugget",
+    "helion:titanium_nugget",
+    "helion:titanium_nugget",
+    "helion:titanium_nugget"
+  ],
+  "result": {
+    "count": 1,
+    "id": "helion:titanium_ingot"
+  }
+}

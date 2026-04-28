@@ -26,6 +26,7 @@ public class HelionBlocks {
                     .requiresCorrectToolForDrops() // Mit dieser eigenschaft dropt der Block nur wenn das Richtige Werkzeug benutzt wird
                     .strength(3.0F, 3.0F) //Das ist der Widerstand bzw die Härte, also beim Abbauen...wie lange ich also draufhauen muss und wie viel gesprengt wird.
                     .sound(SoundType.STONE) //Das ist für den sound. Also bei dem Laufen / Abbauen usw.
+                    .lightLevel(state -> 10)
 
     );
 
@@ -36,6 +37,7 @@ public class HelionBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(4.5F, 4.5F)
                     .sound(SoundType.DEEPSLATE)
+                    .lightLevel(state -> 15)
     );
 
     // Lead Ore
@@ -68,4 +70,33 @@ public class HelionBlocks {
                     .sound(SoundType.DEEPSLATE)
     );
 
+    // Lagerblöcke aus neun Ingots
+
+    public static final DeferredBlock<Block> HELIONIUM_BLOCK = BLOCKS.registerSimpleBlock(
+            "helionium_block",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_CYAN)
+                    .strength(5.0f, 6.0f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> 15)
+    );
+
+    public static final DeferredBlock<Block> LEAD_BLOCK = BLOCKS.registerSimpleBlock(
+            "lead_block",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_CYAN)
+                    .strength(5.0f, 6.0f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()
+    );
+
+    public static final DeferredBlock<Block> TITANIUM_BLOCK = BLOCKS.registerSimpleBlock(
+            "titanium_block",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_CYAN)
+                    .strength(5.0f, 6.0f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()
+    );
 }

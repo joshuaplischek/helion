@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "helion:helionium_nugget",
+    "helion:helionium_nugget",
+    "helion:helionium_nugget",
+    "helion:helionium_nugget",
+    "helion:helionium_nugget",
+    "helion:helionium_nugget",
+    "helion:helionium_nugget",
+    "helion:helionium_nugget",
+    "helion:helionium_nugget"
+  ],
+  "result": {
+    "count": 1,
+    "id": "helion:helionium_ingot"
+  }
+}
