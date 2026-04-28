@@ -109,10 +109,12 @@ public class HelionMod {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(HelionItems.HELIONIUM_ORE_ITEM);
             event.accept(HelionItems.DEEPSLATE_HELIONIUM_ORE_ITEM);
+            event.accept(HelionItems.LEAD_ORE_ITEM);
 
         };
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(HelionItems.RAW_HELIONIUM);
+            event.accept(HelionItems.RAW_LEAD);
         };
     }
 

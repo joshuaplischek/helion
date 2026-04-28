@@ -4,5 +4,6 @@
   "block.helion.lead_ore" : "Blei Erz",
 
 
-  "item.helion.raw_helionium": "Rohes Helionium"
+  "item.helion.raw_helionium": "Rohes Helionium",
+  "item.helion.raw_lead": "Rohes Blei"
 }

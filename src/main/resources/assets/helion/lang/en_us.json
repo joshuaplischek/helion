@@ -18,6 +18,6 @@
   "block.helion.lead_ore" : "Lead Ore",
 
 
-  "item.helion.raw_helionium": "Raw Helionium"
-
+  "item.helion.raw_helionium": "Raw Helionium",
+  "item.helion.raw_lead": "Raw Lead"
 }

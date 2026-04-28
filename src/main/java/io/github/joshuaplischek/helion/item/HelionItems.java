@@ -34,4 +34,9 @@ public class HelionItems {
             new Item.Properties()
     );
 
+    public static final DeferredItem<Item> RAW_LEAD = ITEMS.registerSimpleItem(
+            "raw_lead",
+            new Item.Properties()
+    );
+
 }
