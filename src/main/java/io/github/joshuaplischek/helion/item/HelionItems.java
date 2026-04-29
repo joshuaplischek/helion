@@ -3,13 +3,19 @@ package io.github.joshuaplischek.helion.item;
 import com.jcraft.jorbis.Block;
 import io.github.joshuaplischek.helion.HelionMod;
 import io.github.joshuaplischek.helion.block.HelionBlocks;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.*;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+
+
 public class HelionItems {
+
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HelionMod.MODID);
 
     // Hier kommt wieder der eigene Deferrender für die Items aus meiner Mod
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(HelionMod.MODID);
@@ -95,5 +101,82 @@ public class HelionItems {
     public static final DeferredItem<Item> TITANIUM_NUGGET = ITEMS.registerSimpleItem(
             "titanium_nugget",
             new Item.Properties());
+
+    // Titanium Tools
+
+    // Sword
+
+    public static final DeferredItem<SwordItem> TITANIUM_SWORD = ITEMS.register(
+            "titanium_sword",
+            () -> new SwordItem(
+                    HelionToolMaterials.TITANIUM,
+                    new Item.Properties().attributes(
+                            SwordItem.createAttributes(HelionToolMaterials.TITANIUM, 3, -2.4f)
+                    )
+            )
+    );
+
+    // AXE
+
+    public static final DeferredItem<AxeItem> TITANIUM_AXE = ITEMS.register(
+            "titanium_axe",
+            () -> new AxeItem(
+                    HelionToolMaterials.TITANIUM,
+                    new Item.Properties().attributes(
+                            AxeItem.createAttributes(HelionToolMaterials.TITANIUM, 5, -1f)
+                    )
+            )
+    );
+
+    // PICKAXE
+
+    public static final DeferredItem<PickaxeItem> TITANIUM_PICKAXE = ITEMS.register(
+            "titanium_sword",
+            () -> new PickaxeItem(
+                    HelionToolMaterials.TITANIUM,
+                    new Item.Properties().attributes(
+                            PickaxeItem.createAttributes(HelionToolMaterials.TITANIUM, 1, -2f)
+                    )
+            )
+    );
+
+    // Helion Creative Tab, hier müssen alle Items welche in der MOD existieren hinzugefügt werden, da sie sonst nicht sichtbar sind
+
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HELION_TAB =
+            CREATIVE_MODE_TABS.register("helion_tab", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.helion"))
+                    .withTabsBefore(CreativeModeTabs.COMBAT)
+                    .icon(() -> HELIONIUM_INGOT.get().getDefaultInstance())
+                    .displayItems((parameters, output) -> {
+                        // Erze
+                        output.accept(HELIONIUM_ORE_ITEM);
+                        output.accept(DEEPSLATE_HELIONIUM_ORE_ITEM);
+                        output.accept(LEAD_ORE_ITEM);
+                        output.accept(TITANIUM_ORE_ITEM);
+                        output.accept(DEEPSLATE_TITANIUM_ORE_ITEM);
+
+                        // Rohmaterialien
+                        output.accept(RAW_HELIONIUM);
+                        output.accept(RAW_LEAD);
+                        output.accept(RAW_TITANIUM);
+
+                        // Ingots & Nuggets
+                        output.accept(HELIONIUM_INGOT);
+                        output.accept(HELIONIUM_NUGGET);
+                        output.accept(LEAD_INGOT);
+                        output.accept(LEAD_NUGGET);
+                        output.accept(TITANIUM_INGOT);
+                        output.accept(TITANIUM_NUGGET);
+
+                        // Lagerblöcke
+                        output.accept(HELIONIUM_BLOCK_ITEM);
+                        output.accept(LEAD_BLOCK_ITEM);
+                        output.accept(TITANIUM_BLOCK_ITEM);
+
+                        // Tools (werden in Kap. 05 hinzugefügt)
+                        // Armor (werden in Kap. 07 hinzugefügt)
+                    }).build());
+
+
 
 }
