@@ -3,7 +3,9 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 1.0,
-  "ingredient": "helion:raw_helionium",
+  "ingredient": {
+    "item": "helion:raw_helionium"
+  },
   "result": {
     "id": "helion:helionium_ingot"
   }

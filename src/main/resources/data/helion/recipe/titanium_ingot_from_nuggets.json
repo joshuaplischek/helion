@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "helion:titanium_nugget",
-    "helion:titanium_nugget",
-    "helion:titanium_nugget",
-    "helion:titanium_nugget",
-    "helion:titanium_nugget",
-    "helion:titanium_nugget",
-    "helion:titanium_nugget",
-    "helion:titanium_nugget",
-    "helion:titanium_nugget"
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" },
+    { "item": "helion:titanium_nugget" }
   ],
   "result": {
     "count": 1,

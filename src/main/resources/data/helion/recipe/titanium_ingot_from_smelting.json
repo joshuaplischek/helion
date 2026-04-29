@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 400,
   "experience": 2.0,
-  "ingredient": "helion:raw_titanium",
+  "ingredient": { "item" : "helion:raw_titanium" },
   "result": {
     "id": "helion:titanium_ingot"
   }

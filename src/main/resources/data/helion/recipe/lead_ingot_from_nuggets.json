@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "helion:lead_nugget",
-    "helion:lead_nugget",
-    "helion:lead_nugget",
-    "helion:lead_nugget",
-    "helion:lead_nugget",
-    "helion:lead_nugget",
-    "helion:lead_nugget",
-    "helion:lead_nugget",
-    "helion:lead_nugget"
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" },
+    { "item": "helion:lead_nugget" }
   ],
   "result": {
     "count": 1,

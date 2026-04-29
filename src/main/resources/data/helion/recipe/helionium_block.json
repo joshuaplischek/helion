@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "helion:helionium_ingot"
+    "#": { "item": "helion:helionium_ingot" }
   },
   "pattern": [
     "###",

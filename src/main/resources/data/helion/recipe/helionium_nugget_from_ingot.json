@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "helion:helionium_ingot"
+    { "item": "helion:helionium_ingot" }
   ],
   "result": {
     "count": 9,

@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 1.0,
-  "ingredient": "helion:raw_lead",
+  "ingredient": { "item" : "helion:raw_lead" },
   "result": {
     "id": "helion:lead_ingot"
   }
