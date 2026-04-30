@@ -14,10 +14,17 @@
   "item.helion.raw_helionium": "Raw Helionium",
   "item.helion.helionium_ingot": "Helionium Ingot",
   "item.helion.helionium_nugget": "Helionium Nugget",
+
   "item.helion.raw_lead": "Raw Lead",
   "item.helion.lead_ingot": "Lead Ingot",
   "item.helion.lead_nugget": "Lead Nugget",
+
   "item.helion.raw_titanium": "Raw Titanium",
   "item.helion.titanium_ingot": "Titanium Ingot",
-  "item.helion.titanium_nugget": "Titanium Nugget"
+  "item.helion.titanium_nugget": "Titanium Nugget",
+  "item.helion.titanium_sword" : "Titanium Sword",
+  "item.helion.titanium_pickaxe" : "Titanium Pickaxe",
+  "item.helion.titanium_axe" : "Titanium Axe",
+  "item.helion.titanium_shovel" : "Titanium Shovel",
+  "item.helion.titanium_hoe" : "Titanium Hoe"
 }

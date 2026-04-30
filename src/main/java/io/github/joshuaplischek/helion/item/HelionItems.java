@@ -111,7 +111,7 @@ public class HelionItems {
             () -> new SwordItem(
                     HelionToolMaterials.TITANIUM,
                     new Item.Properties().attributes(
-                            SwordItem.createAttributes(HelionToolMaterials.TITANIUM, 3, -2.4f)
+                            SwordItem.createAttributes(HelionToolMaterials.TITANIUM, 3, -0f)
                     )
             )
     );
@@ -131,7 +131,7 @@ public class HelionItems {
     // Titanium PICKAXE
 
     public static final DeferredItem<PickaxeItem> TITANIUM_PICKAXE = ITEMS.register(
-            "titanium_sword",
+            "titanium_pickaxe",
             () -> new PickaxeItem(
                     HelionToolMaterials.TITANIUM,
                     new Item.Properties().attributes(
