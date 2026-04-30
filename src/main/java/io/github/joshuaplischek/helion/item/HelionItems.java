@@ -102,9 +102,9 @@ public class HelionItems {
             "titanium_nugget",
             new Item.Properties());
 
-    // Titanium Tools
+    // --- Tools -------------------------
 
-    // Sword
+    // Titanium Sword
 
     public static final DeferredItem<SwordItem> TITANIUM_SWORD = ITEMS.register(
             "titanium_sword",
@@ -116,7 +116,7 @@ public class HelionItems {
             )
     );
 
-    // AXE
+    // Titanium AXE
 
     public static final DeferredItem<AxeItem> TITANIUM_AXE = ITEMS.register(
             "titanium_axe",
@@ -128,7 +128,7 @@ public class HelionItems {
             )
     );
 
-    // PICKAXE
+    // Titanium PICKAXE
 
     public static final DeferredItem<PickaxeItem> TITANIUM_PICKAXE = ITEMS.register(
             "titanium_sword",
@@ -136,6 +136,30 @@ public class HelionItems {
                     HelionToolMaterials.TITANIUM,
                     new Item.Properties().attributes(
                             PickaxeItem.createAttributes(HelionToolMaterials.TITANIUM, 1, -2f)
+                    )
+            )
+    );
+
+    // Titanium SHOVEL
+
+    public static final DeferredItem<ShovelItem> TITANIUM_SHOVEL = ITEMS.register(
+            "titanium_shovel",
+            () -> new ShovelItem(
+                    HelionToolMaterials.TITANIUM,
+                    new Item.Properties().attributes(
+                            PickaxeItem.createAttributes(HelionToolMaterials.TITANIUM, 1.5f, -3.0f)
+                    )
+            )
+    );
+
+    // Titanium HOE
+
+    public static final DeferredItem<HoeItem> TITANIUM_HOE = ITEMS.register(
+            "titanium_hoe",
+            () -> new HoeItem(
+                    HelionToolMaterials.TITANIUM,
+                    new Item.Properties().attributes(
+                            PickaxeItem.createAttributes(HelionToolMaterials.TITANIUM, 2, -1.0f)
                     )
             )
     );
