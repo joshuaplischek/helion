@@ -8,8 +8,16 @@
 
 
   "item.helion.raw_helionium": "Rohes Helionium",
+  "item.helion.helionium_ingot": "Helionium Barren",
+  "item.helion.helionium_nugget": "Helionium Nugget",
+
   "item.helion.raw_lead": "Rohes Blei",
+  "item.helion.lead_ingot": "Blei Barren",
+  "item.helion.lead_nugget": "Blei Nugget",
+
+
   "item.helion.raw_titanium": "Rohes Titan",
+  "item.helion.titanium_ingot": "Titan Barren",
   "item.helion.titanium_nugget": "Titan Nugget",
   "item.helion.titanium_sword" : "Titan Schwert",
   "item.helion.titanium_pickaxe" : "Titan Spitzhacke",
