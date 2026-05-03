@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": { "item": "minecraft:redstone" },
+    "X": { "item": "helion:tin_ingot"},
+    "C": {"item": "minecraft:copper_ingot"}
+  },
+  "pattern": [
+    "CXC",
+    "X#X",
+    "CXC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "helion:small_battery"
+  }
+}

@@ -36,9 +36,9 @@
 
   "item.helion.raw_tin" : "Raw Tin",
   "item.helion.tin_ingot" : "Tin Ingot",
-  "item.helion.tin_nugget": "Tin Nugget"
+  "item.helion.tin_nugget": "Tin Nugget",
 
-
+  "item.helion.small_battery": "Small Battery"
 
 
 }

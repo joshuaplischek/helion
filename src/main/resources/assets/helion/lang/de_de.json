@@ -33,6 +33,8 @@
 
   "item.helion.raw_tin" : "Rohes Zinn",
   "item.helion.tin_ingot" : "Zinn Barren",
-  "item.helion.tin_nugget": "Zinn Nugget"
+  "item.helion.tin_nugget": "Zinn Nugget",
+
+  "item.helion.small_battery": "Kleine Batterie"
 
 }

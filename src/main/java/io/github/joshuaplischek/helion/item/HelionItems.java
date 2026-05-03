@@ -251,6 +251,23 @@ public class HelionItems {
             )
     );
 
+    // Battery
+
+    public static final  DeferredItem<Item> SMALL_BATTERY = ITEMS.registerSimpleItem(
+            "small_battery",
+            new Item.Properties()
+    );
+
+    public static final  DeferredItem<Item> MEDIUM_BATTERY = ITEMS.registerSimpleItem(
+            "medium_battery",
+            new Item.Properties()
+    );
+
+    public static final  DeferredItem<Item> LARGE_BATTERY = ITEMS.registerSimpleItem(
+            "large_battery",
+            new Item.Properties()
+    );
+
     // Helion Creative Tab, hier müssen alle Items welche in der MOD existieren hinzugefügt werden, da sie sonst nicht sichtbar sind
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HELION_TAB =
@@ -301,6 +318,9 @@ public class HelionItems {
                         output.accept(TITANIUM_CHESTPLATE);
                         output.accept(TITANIUM_LEGGINGS);
                         output.accept(TITANIUM_BOOTS);
+
+                        // Battery
+                        output.accept(SMALL_BATTERY);
                     }).build());
 
 
