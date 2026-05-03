@@ -266,6 +266,7 @@ public class HelionItems {
                         output.accept(RAW_HELIONIUM);
                         output.accept(RAW_LEAD);
                         output.accept(RAW_TITANIUM);
+                        output.accept(RAW_TIN);
 
                         // Ingots & Nuggets
                         output.accept(HELIONIUM_INGOT);

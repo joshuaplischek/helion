@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" },
+    { "item": "helion:tin_nugget" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "helion:tin_ingot"
+  }
+}

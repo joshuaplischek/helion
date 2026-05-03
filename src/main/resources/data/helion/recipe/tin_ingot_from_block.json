@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "helion:tin_block" }
+  ],
+  "result": {
+    "count": 9,
+    "id": "helion:tin_ingot"
+  }
+}
