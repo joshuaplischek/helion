@@ -120,5 +120,14 @@ public class HelionBlocks {
                     .requiresCorrectToolForDrops()
     );
 
+    // TIN BLOCK
 
+    public static final DeferredBlock<Block> TIN_BLOCK = BLOCKS.registerSimpleBlock(
+            "tin_block",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_LIGHT_GRAY)
+                    .strength(5.0f, 6.0f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()
+    );
 }

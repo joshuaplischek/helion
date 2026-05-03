@@ -10,6 +10,7 @@
     "helion:lead_block",
     "helion:titanium_block",
     "helion:tin_ore",
-    "helion:deepslate_tin_ore"
+    "helion:deepslate_tin_ore",
+    "helion:tin_block"
   ]
 }

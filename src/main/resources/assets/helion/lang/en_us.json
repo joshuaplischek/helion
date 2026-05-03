@@ -11,6 +11,7 @@
   "block.helion.titanium_block" : "Block of Titanium",
   "block.helion.tin_ore" : "Tin Ore",
   "block.helion.deepslate_tin_ore" : "Deepslate Tin Ore",
+  "block.helion.tin_block" : "Block of Tin",
 
   "item.helion.raw_helionium": "Raw Helionium",
   "item.helion.helionium_ingot": "Helionium Ingot",

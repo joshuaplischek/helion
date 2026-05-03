@@ -54,6 +54,12 @@ public class HelionItems {
             "titanium_block", HelionBlocks.TITANIUM_BLOCK
     );
 
+    // TIN BLOCK
+
+    public static final DeferredItem<BlockItem> TIN_BLOCK_ITEM = ITEMS.registerSimpleBlockItem(
+            "tin_block", HelionBlocks.TIN_BLOCK
+    );
+
     // Tin ORE ITEM
 
     public static final DeferredItem<BlockItem> TIN_ORE_ITEM = ITEMS.registerSimpleBlockItem(
@@ -282,6 +288,7 @@ public class HelionItems {
                         output.accept(HELIONIUM_BLOCK_ITEM);
                         output.accept(LEAD_BLOCK_ITEM);
                         output.accept(TITANIUM_BLOCK_ITEM);
+                        output.accept(TIN_BLOCK_ITEM);
 
                         // Tools (werden in Kap. 05 hinzugefügt)
                         output.accept(TITANIUM_PICKAXE);

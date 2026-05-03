@@ -8,6 +8,7 @@
   "block.helion.titanium_block" : "Titan Block",
   "block.helion.tin_ore" : "Zinn Erz",
   "block.helion.deepslate_tin_ore" : "Tiefenschiefer Zinn Erz",
+  "block.helion.tin_block" : "Zinn Block",
 
   "item.helion.raw_helionium": "Rohes Helionium",
   "item.helion.helionium_ingot": "Helionium Barren",
