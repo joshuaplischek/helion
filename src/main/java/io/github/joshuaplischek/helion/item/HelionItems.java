@@ -198,7 +198,7 @@ public class HelionItems {
             )
     );
 
-    // ARMOR
+    // --- ARMOR ------------------------------------------------------------------------------
 
     //TITANIUM ARMOR
 
@@ -267,6 +267,8 @@ public class HelionItems {
                         output.accept(LEAD_NUGGET);
                         output.accept(TITANIUM_INGOT);
                         output.accept(TITANIUM_NUGGET);
+                        output.accept(TIN_INGOT);
+                        output.accept(TIN_NUGGET);
 
                         // Lagerblöcke
                         output.accept(HELIONIUM_BLOCK_ITEM);
@@ -274,11 +276,16 @@ public class HelionItems {
                         output.accept(TITANIUM_BLOCK_ITEM);
 
                         // Tools (werden in Kap. 05 hinzugefügt)
+                        output.accept(TITANIUM_PICKAXE);
+                        output.accept(TITANIUM_SHOVEL);
+                        output.accept(TITANIUM_HOE);
+                        output.accept(TITANIUM_AXE);
+                        output.accept(TITANIUM_SWORD);
+                        // Armor (werden in Kap. 07 hinzugefügt)
                         output.accept(TITANIUM_HELMET);
                         output.accept(TITANIUM_CHESTPLATE);
                         output.accept(TITANIUM_LEGGINGS);
                         output.accept(TITANIUM_BOOTS);
-                        // Armor (werden in Kap. 07 hinzugefügt)
                     }).build());
 
 
