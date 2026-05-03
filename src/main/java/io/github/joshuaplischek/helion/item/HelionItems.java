@@ -98,6 +98,13 @@ public class HelionItems {
             new Item.Properties()
     );
 
+    // TIN INGOT
+
+    public static final DeferredItem<Item> TIN_INGOT = ITEMS.registerSimpleItem(
+            "tin_ingot",
+            new Item.Properties()
+    );
+
     // ── Nuggets ─────────────────────────────────
 
     public static final DeferredItem<Item> HELIONIUM_NUGGET = ITEMS.registerSimpleItem(
@@ -112,7 +119,24 @@ public class HelionItems {
             "titanium_nugget",
             new Item.Properties());
 
-    // --- Tools -------------------------
+    // Tin Nugget
+
+    public static final DeferredItem<Item> TIN_NUGGET = ITEMS.registerSimpleItem(
+            "tin_nugget",
+            new Item.Properties());
+
+
+    // --- DUST -------------------------------------------------------------------------
+
+    public static final DeferredItem<Item> TIN_DUST = ITEMS.registerSimpleItem(
+            "tin_dust",
+            new Item.Properties());
+
+    public static final  DeferredItem<Item> LEAD_DUST = ITEMS.registerSimpleItem(
+            "lead_dust",
+            new Item.Properties());
+
+    // --- Tools ----------------------------------------------------------------------
 
     // Titanium Sword
 
