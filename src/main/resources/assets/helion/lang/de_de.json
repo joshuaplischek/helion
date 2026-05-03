@@ -5,7 +5,7 @@
   "block.helion.lead_ore" : "Blei Erz",
   "block.helion.titanium_ore": "Titan Erz",
   "block.helion.deepslate_titanium_ore": "Tiefenschiefer Titan Erz",
-
+  "block.helion.titanium_block" : "Titan Block",
 
   "item.helion.raw_helionium": "Rohes Helionium",
   "item.helion.helionium_ingot": "Helionium Barren",
@@ -15,7 +15,6 @@
   "item.helion.lead_ingot": "Blei Barren",
   "item.helion.lead_nugget": "Blei Nugget",
 
-
   "item.helion.raw_titanium": "Rohes Titan",
   "item.helion.titanium_ingot": "Titan Barren",
   "item.helion.titanium_nugget": "Titan Nugget",
@@ -23,5 +22,9 @@
   "item.helion.titanium_pickaxe" : "Titan Spitzhacke",
   "item.helion.titanium_axe" : "Titan Axt",
   "item.helion.titanium_shovel" : "Titan Klappspaten",
-  "item.helion.titanium_hoe" : "Titan Hacke"
+  "item.helion.titanium_hoe" : "Titan Hacke",
+  "item.helion.titanium_chestplate" : "Titan Brustpanzer",
+  "item.helion.titanium_helmet" : "Titan Helm",
+  "item.helion.titanium_leggings" : "Titan Beinschutz",
+  "item.helion.titanium_boots" : "Titan Schuhe"
 }

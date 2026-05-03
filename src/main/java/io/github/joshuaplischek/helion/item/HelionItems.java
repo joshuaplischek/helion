@@ -54,6 +54,16 @@ public class HelionItems {
             "titanium_block", HelionBlocks.TITANIUM_BLOCK
     );
 
+    // Tin ORE ITEM
+
+    public static final DeferredItem<BlockItem> TIN_ORE_ITEM = ITEMS.registerSimpleBlockItem(
+            "tin_ore", HelionBlocks.TIN_ORE
+    );
+
+    public static final DeferredItem<BlockItem> DEEPSLATE_TIN_ORE_ITEM = ITEMS.registerSimpleBlockItem(
+            "deepslate_tin_ore", HelionBlocks.DEEPSLATE_TIN_ORE
+    );
+
     // ── Eigenständige Items ─────────────────────────────────
 
     public static final DeferredItem<Item> RAW_HELIONIUM = ITEMS.registerSimpleItem(
@@ -164,6 +174,46 @@ public class HelionItems {
             )
     );
 
+    // ARMOR
+
+    //TITANIUM ARMOR
+
+    public static final DeferredItem<ArmorItem> TITANIUM_HELMET = ITEMS.register(
+            "titanium_helmet",
+            () -> new ArmorItem(
+                    HelionArmorMaterials.TITANIUM,
+                    ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(25))
+            )
+    );
+
+    public static final DeferredItem<ArmorItem> TITANIUM_CHESTPLATE = ITEMS.register(
+            "titanium_chestplate",
+            () -> new ArmorItem(
+                    HelionArmorMaterials.TITANIUM,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(25))
+            )
+    );
+
+    public static final DeferredItem<ArmorItem> TITANIUM_LEGGINGS = ITEMS.register(
+            "titanium_leggings",
+            () -> new ArmorItem(
+                    HelionArmorMaterials.TITANIUM,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(25))
+            )
+    );
+
+    public static final DeferredItem<ArmorItem> TITANIUM_BOOTS = ITEMS.register(
+            "titanium_boots",
+            () -> new ArmorItem(
+                    HelionArmorMaterials.TITANIUM,
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))
+            )
+    );
+
     // Helion Creative Tab, hier müssen alle Items welche in der MOD existieren hinzugefügt werden, da sie sonst nicht sichtbar sind
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HELION_TAB =
@@ -178,6 +228,8 @@ public class HelionItems {
                         output.accept(LEAD_ORE_ITEM);
                         output.accept(TITANIUM_ORE_ITEM);
                         output.accept(DEEPSLATE_TITANIUM_ORE_ITEM);
+                        output.accept(TIN_ORE_ITEM);
+                        output.accept(DEEPSLATE_TIN_ORE_ITEM);
 
                         // Rohmaterialien
                         output.accept(RAW_HELIONIUM);
@@ -198,6 +250,10 @@ public class HelionItems {
                         output.accept(TITANIUM_BLOCK_ITEM);
 
                         // Tools (werden in Kap. 05 hinzugefügt)
+                        output.accept(TITANIUM_HELMET);
+                        output.accept(TITANIUM_CHESTPLATE);
+                        output.accept(TITANIUM_LEGGINGS);
+                        output.accept(TITANIUM_BOOTS);
                         // Armor (werden in Kap. 07 hinzugefügt)
                     }).build());
 

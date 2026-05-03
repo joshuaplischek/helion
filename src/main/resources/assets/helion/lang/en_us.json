@@ -10,7 +10,6 @@
   "block.helion.deepslate_titanium_ore": "Deepslate_Titanium Ore",
   "block.helion.titanium_block" : "Block of Titanium",
 
-
   "item.helion.raw_helionium": "Raw Helionium",
   "item.helion.helionium_ingot": "Helionium Ingot",
   "item.helion.helionium_nugget": "Helionium Nugget",
@@ -26,5 +25,12 @@
   "item.helion.titanium_pickaxe" : "Titanium Pickaxe",
   "item.helion.titanium_axe" : "Titanium Axe",
   "item.helion.titanium_shovel" : "Titanium Shovel",
-  "item.helion.titanium_hoe" : "Titanium Hoe"
+  "item.helion.titanium_hoe" : "Titanium Hoe",
+  "item.helion.titanium_chestplate" : "Titanium Chestplate",
+  "item.helion.titanium_helmet" : "Titanium Helmet",
+  "item.helion.titanium_leggings" : "Titanium Leggings",
+  "item.helion.titanium_boots" : "Titanium Boots"
+
+
+
 }

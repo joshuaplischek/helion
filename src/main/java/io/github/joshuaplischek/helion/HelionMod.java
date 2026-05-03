@@ -1,6 +1,7 @@
 package io.github.joshuaplischek.helion;
 
 import io.github.joshuaplischek.helion.block.HelionBlocks;
+import io.github.joshuaplischek.helion.item.HelionArmorMaterials;
 import io.github.joshuaplischek.helion.item.HelionItems;
 import org.slf4j.Logger;
 
@@ -42,6 +43,7 @@ public class HelionMod {
         // Helion Blöcke und Items registrieren
         HelionBlocks.BLOCKS.register(modEventBus);
         HelionItems.ITEMS.register(modEventBus);
+        HelionArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
         HelionItems.CREATIVE_MODE_TABS.register(modEventBus);
 
         LOGGER.info("Helion Industries loaded!");

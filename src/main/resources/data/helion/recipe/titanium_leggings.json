@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": { "X": { "item": "helion:titanium_ingot" } },
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "result": { "count": 1, "id": "helion:titanium_leggings" }
+}

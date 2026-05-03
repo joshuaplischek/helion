@@ -70,6 +70,26 @@ public class HelionBlocks {
                     .sound(SoundType.DEEPSLATE)
     );
 
+    //Tin
+
+    public static final DeferredBlock<Block> TIN_ORE = BLOCKS.registerSimpleBlock(
+            "tin_ore",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.STONE)
+                    .requiresCorrectToolForDrops()
+                    .strength(3.0F, 3.0F)
+                    .sound(SoundType.STONE)
+    );
+
+    public static final DeferredBlock<Block> DEEPSLATE_TIN_ORE = BLOCKS.registerSimpleBlock(
+            "deepslate_tin_ore",
+            BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.DEEPSLATE)
+                    .requiresCorrectToolForDrops()
+                    .strength(4.0F, 4.0F)
+                    .sound(SoundType.DEEPSLATE)
+    );
+
     // Lagerblöcke aus neun Ingots
 
     public static final DeferredBlock<Block> HELIONIUM_BLOCK = BLOCKS.registerSimpleBlock(
@@ -99,4 +119,6 @@ public class HelionBlocks {
                     .sound(SoundType.METAL)
                     .requiresCorrectToolForDrops()
     );
+
+
 }
