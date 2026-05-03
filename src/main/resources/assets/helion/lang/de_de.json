@@ -6,6 +6,8 @@
   "block.helion.titanium_ore": "Titan Erz",
   "block.helion.deepslate_titanium_ore": "Tiefenschiefer Titan Erz",
   "block.helion.titanium_block" : "Titan Block",
+  "block.helion.tin_ore" : "Zinn Erz",
+  "block.helion.deepslate_tin_ore" : "Tiefenschiefer Zinn Erz",
 
   "item.helion.raw_helionium": "Rohes Helionium",
   "item.helion.helionium_ingot": "Helionium Barren",
@@ -26,5 +28,10 @@
   "item.helion.titanium_chestplate" : "Titan Brustpanzer",
   "item.helion.titanium_helmet" : "Titan Helm",
   "item.helion.titanium_leggings" : "Titan Beinschutz",
-  "item.helion.titanium_boots" : "Titan Schuhe"
+  "item.helion.titanium_boots" : "Titan Schuhe",
+
+  "item.helion.raw_tin" : "Rohes Zinn",
+  "item.helion.tin_ingot" : "Zinn Barren",
+  "item.helion.tin_nugget": "Zinn Nugget"
+
 }

@@ -81,6 +81,13 @@ public class HelionItems {
             new Item.Properties()
     );
 
+    // RAW TIN
+
+    public static final DeferredItem<Item> RAW_TIN = ITEMS.registerSimpleItem(
+            "raw_tin",
+            new Item.Properties()
+    );
+
     // ── Ingots ─────────────────────────────────
 
     public static final DeferredItem<Item> HELIONIUM_INGOT = ITEMS.registerSimpleItem(

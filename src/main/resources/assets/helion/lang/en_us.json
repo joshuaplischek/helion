@@ -9,6 +9,8 @@
   "block.helion.titanium_ore": "Titanium Ore",
   "block.helion.deepslate_titanium_ore": "Deepslate_Titanium Ore",
   "block.helion.titanium_block" : "Block of Titanium",
+  "block.helion.tin_ore" : "Tin Ore",
+  "block.helion.deepslate_tin_ore" : "Deepslate Tin Ore",
 
   "item.helion.raw_helionium": "Raw Helionium",
   "item.helion.helionium_ingot": "Helionium Ingot",
@@ -29,7 +31,12 @@
   "item.helion.titanium_chestplate" : "Titanium Chestplate",
   "item.helion.titanium_helmet" : "Titanium Helmet",
   "item.helion.titanium_leggings" : "Titanium Leggings",
-  "item.helion.titanium_boots" : "Titanium Boots"
+  "item.helion.titanium_boots" : "Titanium Boots",
+
+  "item.helion.raw_tin" : "Raw Tin",
+  "item.helion.tin_ingot" : "Tin Ingot",
+  "item.helion.tin_nugget": "Tin Nugget"
+
 
 
 
